@@ -1,0 +1,30 @@
+body, html { margin:0; padding:0; font-family: Arial, sans-serif; height:100%; }
+.hidden { display:none; }
+
+/* Landing page */
+#joinPage { 
+  display:flex; justify-content:center; align-items:center; height:100%; 
+  background-color:#2f3136; 
+}
+#joinBox { 
+  background-color:#202225; padding:40px; border-radius:10px; text-align:center; 
+}
+#joinBox input { padding:10px; width:200px; border-radius:5px; border:none; margin-top:10px; }
+#joinBox button { padding:10px 20px; margin-top:10px; border:none; border-radius:5px; background:#5865f2; color:white; cursor:pointer; }
+
+/* Chat page */
+#chatPage { display:flex; height:100vh; background:#36393f; }
+
+/* Sidebar */
+#sidebar { width:250px; background:#2f3136; padding:10px; display:flex; flex-direction:column; }
+#sidebar h4 { color:white; margin:5px 0; }
+#sidebar input { padding:5px; margin-top:5px; border-radius:5px; border:none; }
+#sidebar button { padding:5px; margin-top:5px; border:none; border-radius:5px; background:#5865f2; color:white; cursor:pointer; }
+
+/* Chat area */
+#chatArea { flex-grow:1; display:flex; flex-direction:column; }
+#chatTitle { padding:10px; color:white; background:#2f3136; }
+#messages { flex-grow:1; padding:10px; overflow-y:auto; color:white; }
+#inputArea { display:flex; padding:10px; background:#40444b; }
+#inputArea input { flex-grow:1; padding:10px; border-radius:5px; border:none; }
+#inputArea button { padding:10px 20px; margin-left:5px; border:none; border-radius:5px; background:#5865f2; color:white; cursor:pointer; }
