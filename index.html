@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DeskSide</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- LANDING PAGE -->
+<div id="joinPage">
+  <div id="joinBox">
+    <h1>DeskSide</h1>
+    <input id="username" placeholder="Enter your username">
+    <button id="joinBtn" type="button">Join</button>
+  </div>
+</div>
+
+<!-- CHAT PAGE -->
+<div id="chatPage" class="hidden">
+  <div id="sidebar">
+    <button id="globalBtn" type="button">Global Chat</button>
+
+    <h4>Friends</h4>
+    <div id="friends"></div>
+
+    <h4>Friend Requests</h4>
+    <div id="pendingRequests"></div>
+
+    <input id="friendInput" placeholder="Friend's username">
+    <button id="friendAddBtn" type="button">Add Friend</button>
+  </div>
+
+  <div id="chatArea">
+    <h2 id="chatTitle">Global Chat</h2>
+    <div id="messages"></div>
+    <div id="inputArea">
+      <input id="messageInput" placeholder="Type a message">
+      <button id="sendBtn" type="button">Send</button>
+    </div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
